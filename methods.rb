@@ -4,10 +4,10 @@ def greet_programmer
 end
 greet_programmer
 
-def greet(name)
+def greet (name)
     puts "Hello, #{name}!"
 end
-greet("Naureen")
+greet "Naureen"
 
 def greet_with_default(name = "programmer")
     puts "Hello, #{name}!"
